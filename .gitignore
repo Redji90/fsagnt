@@ -1,3 +1,6 @@
+# Environment variables
+.env
+
 # Python
 __pycache__/
 *.py[cod]
@@ -23,9 +26,9 @@ wheels/
 .installed.cfg
 *.egg
 
-# Environment variables
-.env
-.env.local
+# Uploads and analysis
+uploads/
+analysis/
 
 # IDE
 .vscode/
@@ -38,8 +41,5 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Project specific
-uploads/
-temp/
+# Logs
 *.log
-
